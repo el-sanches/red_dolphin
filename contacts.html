@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>Контакты</title>
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="css/vendor.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="Preloader Preloader-active" id="pagePreloader"></div>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <div class="header__inner container"><a class="header__logo" href="/"><img src="img/logo.svg"></a>
+            <!-- .header__title Мобильная электроника для жестких условий эксплуатаций-->
+            <div class="header__nav">
+              <nav class="headerMenu"><a class="headerMenu__item" href="/">О компании</a><a class="headerMenu__item" href="/">Разработка</a><a class="headerMenu__item" href="/">Продукция</a><a class="headerMenu__item" href="/">Контакты</a></nav>
+            </div>
+            <div class="header__phone">+7 (812) 903 91 03</div>
+          </div>
+        </header>
+        <main>
+          <section class="topBanner" style="background-image: url('img/banner_contacts.jpg')">
+            <div class="topBanner__title">Мы всегда рады ответить на любые вопросы и <br /> открыты для любого сотрудничества</div>
+          </section>
+          <section class="contacts">
+            <div class="contacts__col">
+              <form class="contacts__form">
+                <div class="contacts__title">Оставьте свой вопрос, и мы обязательно свяжемся с Вами!</div>
+                <div class="contacts__row">
+                  <div class="contacts__inputs">
+                    <input class="contacts__input" type="text" placeholder="Ваше имя">
+                    <input class="contacts__input" type="text" placeholder="Название компании">
+                    <input class="contacts__input" type="tel" placeholder="Номер телефона">
+                  </div>
+                  <div class="contacts__textarea">
+                    <textarea class="contacts__text" placeholder="Оставьте ваш вопрос"></textarea>
+                  </div>
+                </div>
+                <button type="submit" id="send">Связаться</button>
+                <p>Отправляя запрос, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
+              </form>
+            </div>
+            <div class="contacts__col">
+              <div class="contacts__info">
+                <div class="contacts__item"><img src="img/contact_icon.png">
+                  <p> info@red-dolphin.ru</p>
+                </div>
+                <div class="contacts__item"><img src="img/contact_icon_2.png">
+                  <p> +7 (812) 903 91 03</p>
+                </div>
+                <div class="contacts__item"><img src="img/contact_icon_3.png">
+                  <p> +7 (812) 324 45 16</p>
+                </div>
+                <div class="contacts__item"><img src="img/contact_icon_4.png">
+                  <p> 198095, Санкт-Петербург, ул. Маршала Говорова, дом 52, лит. А, помещение 36Н</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div id="map" style="width: 100%; height: 510px"></div>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="footer__inner container"><a class="footer__logo" href="/"><img src="img/footer_logo.png"></a>
+          <div class="footer__nav">
+            <nav class="footerNav"><a class="footerNav__item" href="/">О компании</a><a class="footerNav__item" href="/">Разработка</a><a class="footerNav__item" href="/">Продукция</a></nav>
+          </div>
+          <div class="footer__info footerInfo">
+            <div class="footerInfo__inner">
+              <div class="footerInfo__row">
+                <div class="footerInfo__item">
+                  <div class="footerInfo__title">Контакты</div>
+                  <div class="footerInfo__text">
+                    <p>Тел.: +7 (812) 903 91 03</p>
+                    <p>Факс: +7 (812) 324 45 16</p>
+                    <p>Email:  info@red-dolphin.ru</p>
+                  </div>
+                </div>
+                <div class="footerInfo__item">
+                  <div class="footerInfo__title">Адрес</div>
+                  <div class="footerInfo__text">
+                    <p>АО «Красный дельфин» <br /> 198095, г. Санкт-Петербург, <br /> ул. Маршала Говорова, д. 52</p>
+                  </div>
+                </div>
+              </div>
+              <!-- .footerInfo__subscr
+              form(action="")
+                  input(type="text")
+                  button(type="") Свзязаться
+              -->
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--script(src='js/vendor.js')-->
+      <!--script(src='js/common.js')-->
+    </div>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=2c21ab4d-f469-4819-ae03-629e9b48d9f6&amp;lang=ru_RU" type="text/javascript"></script>
+    <script src="js/contacts.js"></script>
+  </body>
+</html>
