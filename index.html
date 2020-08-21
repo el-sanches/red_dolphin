@@ -18,7 +18,7 @@
     <div class="wrapper">
       <div class="content">
         <header class="header">
-          <div class="header__inner container"><a class="header__logo" href="/"><img src="img/logo.svg"></a>
+          <div class="header__inner container"><a class="header__logo" href="/"><img src="img/logo.png"></a>
             <!-- .header__title Мобильная электроника для жестких условий эксплуатаций-->
             <div class="header__nav">
               <nav class="headerMenu"><a class="headerMenu__item" href="/">О компании</a><a class="headerMenu__item" href="/">Разработка</a><a class="headerMenu__item" href="products.html">Продукция</a><a class="headerMenu__item" href="contacts.html">Контакты</a></nav>
@@ -28,43 +28,220 @@
         </header>
         <main>
           <div class="index">
-            <div class="topBanner">
-              <div class="topBanner__title">Разработка и производство электроники <br /> по своим и клиентским разработкам</div><a class="topBanner__link" href="/">Узнать подробнее</a>
-            </div>
-            <section class="description">
-              <div class="description__col">
-                <div class="description__img"><img src="img/description_img.png"></div>
-              </div>
-              <div class="description__col">
-                <div class="description__content">
-                  <div class="description__title">АО “Красный дельфин”</div>
-                  <div class="description__text">
-                    <p>Российская компания, функционирующая на рынке более 5 лет, специалиируется на создании и реализации как типовых решения и их модификаций, так и продуктов с “нуля”. На всех этапах производственного цикла происходит сопровождение заказчика для создания максимально соответствующей его потребностям продукции.</p>
-                    <p>Компания имеет экспертизу работы в различных отраслях промышленности, что делает  профессиональный опыт релевантным для большого спектра заказчиков.</p>
+            <section class="bannerSlider">
+              <div class="bannerSlider__inner">
+                <div class="swiper-container" data-banner-slide>
+                  <div class="swiper-wrapper">
+                    <div class="bannerSlider__slide swiper-slide" style="background-image: url('img/banner/1.jpg')">
+                      <div class="bannerSlider__content">
+                        <div class="bannerSlider__title">Защищенная электроника <br /> отечественного производства</div>
+                      </div>
+                    </div>
+                    <div class="bannerSlider__slide swiper-slide" style="background-image: url('img/banner/2.jpg')">
+                      <div class="bannerSlider__content">
+                        <div class="bannerSlider__title _center">Разработка индивидуальных решений <br /> для сложных условий эксплуатации</div>
+                        <div class="bannerSlider__link"><a class="btn" href="development.html">Подробнее</a></div>
+                      </div>
+                    </div>
+                    <div class="bannerSlider__slide swiper-slide" style="background-image: url('img/banner/2.jpg')">
+                      <div class="bannerSlider__content">
+                        <div class="bannerSlider__title _center">Комплексный подход к реализации <br /> ваших идей</div>
+                        <div class="bannerSlider__link"><a class="btn" href="products.html">Каталог продукции</a></div>
+                      </div>
+                    </div>
                   </div>
-                </div><a class="description__link" href="/" target="_blank">Скачать буклет о компании</a>
+                </div>
+                <div class="bannerSlider__pag swiper-pagination" data-banner-slider-pag></div>
+                <div class="bannerSlider__navs">
+                  <div class="bannerSlider__nav _prev" data-banner-slider-prev></div>
+                  <div class="bannerSlider__nav _next" data-banner-slider-next></div>
+                </div>
               </div>
             </section>
-            <section class="advantages">
-              <div class="advantages__item">
-                <div class="advantages__icon"><img src="img/icon_adv_1.png"></div>
-                <div class="advantages__title">Собственное разработка</div>
-                <div class="advantages__text">Выпуск продукции по ТД, соответствующей требованиям ГОСТ и утвержденной установленным порядком (литера «О1»)</div>
+            <section class="about container">
+              <div class="about__row">
+                <div class="about__col">
+                  <div class="about__content">
+                    <div class="title _left">О компании</div>
+                    <p>АО «Красный дельфин» - высокотехнологичная российская компания, специализирующаяся на создании и реализации проектных решений в области электронного оборудования и компонентов. Компания предоставляет услуги по разработке промышленной электроники, превращая идеи заказчика в готовые изделия.</p>
+                  </div>
+                </div>
+                <div class="about__col"><img src="img/about_img.jpg"></div>
               </div>
-              <div class="advantages__item">
-                <div class="advantages__icon"><img src="img/icon_adv_2.png"></div>
-                <div class="advantages__title">Собственное производство</div>
-                <div class="advantages__text">Обладая всеми техническими и технологическими предпосылками, мы создаем уникальные продукты для промышленной сферы.</div>
-              </div>
-              <div class="advantages__item">
-                <div class="advantages__icon"><img src="img/icon_adv_3.png"></div>
-                <div class="advantages__title">Контроль качества</div>
-                <div class="advantages__text">Проведение испытаний  на соответствие требованиям  военных и гражданских стандартов в сертифицированных лабораториях</div>
+              <div class="about__advantages">
+                <div class="advantagesItem">
+                  <div class="advantagesItem__inner _index">
+                    <div class="advantagesItem__icon"><img src="img/params/7.png"></div>
+                    <div class="advantagesItem__title">Уникальные продукты</div>
+                    <div class="advantagesItem__text">Обладая всеми техническими и технологическими компетанциями, мы создаем эксклюзивные продукты для промышленной сферы.</div>
+                  </div>
+                </div>
+                <div class="advantagesItem">
+                  <div class="advantagesItem__inner _index">
+                    <div class="advantagesItem__icon"><img src="img/params/5.png"></div>
+                    <div class="advantagesItem__title">Комплексные решения</div>
+                    <div class="advantagesItem__text">Мы поставляем заказчикам аппаратные средства, которые прошли настройки, проверки и испытания и полностью готовы к эксплуатации</div>
+                  </div>
+                </div>
+                <div class="advantagesItem">
+                  <div class="advantagesItem__inner _index">
+                    <div class="advantagesItem__icon"><img src="img/params/4.png"></div>
+                    <div class="advantagesItem__title">Гибкий подход</div>
+                    <div class="advantagesItem__text">Наша команда тщательно проанализирует специфику вашего запроса и подберет оптимальное техническое решение.</div>
+                  </div>
+                </div>
+                <div class="advantagesItem">
+                  <div class="advantagesItem__inner _index">
+                    <div class="advantagesItem__icon"><img src="img/params/10.png"></div>
+                    <div class="advantagesItem__title">Квалифицированная команда</div>
+                    <div class="advantagesItem__text">Люди — наш главный капитал.  Наша команда профессионалов готова решить практически любую Вашу задачу.</div>
+                  </div>
+                </div>
               </div>
             </section>
-            <section class="about">
-              <div class="about__title">Предоставляем надежные решения для наших клиентов</div>
-              <div class="about__text">Опыт работы, качество и надежность создаваемой продукции, положительный клиентский опыт позволяют выстраивать и поддерживать долгосрочное сотрудничество с нашими заказчиками.</div>
+            <section class="developmentProject" style="background-image: url('img/index_projects.jpg')">
+              <div class="title _light">Каталог продукции RD</div>
+              <div class="developmentProject__text">Линейка защищенной электроники RD разработана для решения широкого <br /> спектра задач и предназначена для сфер применения, где предъявляются <br /> повышенные требования стойкости к внешним воздействиям.</div>
+              <div class="developmentProject__slider _index">
+                <div class="projectSlider swiper-container" data-project-slider>
+                  <div class="swiper-wrapper">
+                    <div class="projectSlider__item swiper-slide _index">
+                      <div class="projectSlider__inner _index">
+                        <div class="projectSlider__title">НОУТБУКИ</div>
+                        <div class="projectSlider__content">
+                          <div class="projectSlider__row _index"><img class="projectSlider__img" src="img/products/2.png">
+                            <div class="projectSlider__text">
+                              <p>Серия ноутбуков RDxxF сочетает в себе высокую производительность и широкие возможности конфигурирования, что делает их идеальным инструментом для решения специализированных задач.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projectSlider__item swiper-slide _index">
+                      <div class="projectSlider__inner _index">
+                        <div class="projectSlider__title">РАБОЧИЕ СТАНЦИИ</div>
+                        <div class="projectSlider__content">
+                          <div class="projectSlider__row _index"><img class="projectSlider__img" src="img/products/5.png">
+                            <div class="projectSlider__text">
+                              <p>Рабочие станции RDxxW с масшабируемой подсистемой хранения данных обладают высокой производительностью и многофункциональностью, необходимых для выполнения ресурсоемких задач.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projectSlider__item swiper-slide _index">
+                      <div class="projectSlider__inner _index">
+                        <div class="projectSlider__title">СЕРВЕРЫ</div>
+                        <div class="projectSlider__content">
+                          <div class="projectSlider__row _index"><img class="projectSlider__img" src="img/products/4.png">
+                            <div class="projectSlider__text">
+                              <p>Отказоустойчивые серверы RD оптимальны в качестве управляющего инструмента для любой программно определяемой инфраструктуры с высокими требованиями к информационной безопасности.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projectSlider__item swiper-slide _index">
+                      <div class="projectSlider__inner _index">
+                        <div class="projectSlider__title">ПЛАНШЕТЫ</div>
+                        <div class="projectSlider__content">
+                          <div class="projectSlider__row _index"><img class="projectSlider__img" src="img/products/1.png">
+                            <div class="projectSlider__text">
+                              <p>Многофункциональные планшеты RDxxT отличаются высокой производительностью, простотой обслуживания, непревзойденной прочностью, эргономичным дизайном и длительным временем автономной работы.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projectSlider__item swiper-slide _index">
+                      <div class="projectSlider__inner _index">
+                        <div class="projectSlider__title">ТЕЛЕФОНЫ</div>
+                        <div class="projectSlider__content">
+                          <div class="projectSlider__row _index"><img class="projectSlider__img" src="img/products/3.png">
+                            <div class="projectSlider__text">
+                              <p>Ударопрочные телефоны RDxxP полностью адаптированы к работе в полевых условиях и обеспечивают бесперебойную передачу и хранение данных в самых неблагоприятных погодных воздействиях.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="projectSlider__pag swiper-pagination" data-project-slider-pag></div>
+                </div>
+                <div class="projectSlider__navs">
+                  <div class="projectSlider__nav _prev" data-project-slider-prev></div>
+                  <div class="projectSlider__nav _next" data-project-slider-next></div>
+                </div>
+              </div>
+            </section>
+            <section class="solution">
+              <div class="solution__inner container">
+                <div class="title _light _benefits">Предоставляем надежные решения для наших клиентов</div>
+                <div class="text _light _index">
+                  <p>Опыт работы, качество и надежность создаваемой продукции, положительный <br /> клиентский опыт позволяют выстраивать и поддерживать долгосрочное <br /> сотрудничество с нашими заказчиками.</p>
+                </div>
+              </div>
+            </section>
+            <section class="services">
+              <div class="title _left">Наши услуги</div>
+              <div class="servicesSlider swiper-container" data-project-slider>
+                <div class="swiper-wrapper">
+                  <div class="servicesSlider__item swiper-slide">
+                    <div class="servicesSlider__inner"><img class="servicesSlider__img" src="img/services/1.jpg">
+                      <div class="servicesSlider__content">
+                        <div class="servicesSlider__num">01</div>
+                        <div class="servicesSlider__title">Разработка</div>
+                        <div class="servicesSlider__text">Мы сами разрабатываем свои изделия. Документация оформляется в соответствии с российскими стандартами и имеет литеру “О1”.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="servicesSlider__item swiper-slide">
+                    <div class="servicesSlider__inner"><img class="servicesSlider__img" src="img/services/2.jpg">
+                      <div class="servicesSlider__content">
+                        <div class="servicesSlider__num">02</div>
+                        <div class="servicesSlider__title">Производство</div>
+                        <div class="servicesSlider__text">Производство изделий происходит на базе собственной площадки в Санкт-Петербурге. Средний срок изготовления изделий - 3 месяца.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="servicesSlider__item swiper-slide">
+                    <div class="servicesSlider__inner"><img class="servicesSlider__img" src="img/services/3.jpg">
+                      <div class="servicesSlider__content">
+                        <div class="servicesSlider__num">03</div>
+                        <div class="servicesSlider__title">Испытания и проверки</div>
+                        <div class="servicesSlider__text">Каждое изделие проходит полный циел проверок и испытаний. Процесс производства контролируется ОТК и 243 ВП МО РФ.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="servicesSlider__item swiper-slide">
+                    <div class="servicesSlider__inner"><img class="servicesSlider__img" src="img/services/4.jpg">
+                      <div class="servicesSlider__content">
+                        <div class="servicesSlider__num">04</div>
+                        <div class="servicesSlider__title">Поставка</div>
+                        <div class="servicesSlider__text">Мы поставляем заказчикам аппаратные средства, которые прошли настройки, проверки и испытания и полностью готовы к эксплуатации.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="servicesSlider__item swiper-slide">
+                    <div class="servicesSlider__inner"><img class="servicesSlider__img" src="img/services/5.jpg">
+                      <div class="servicesSlider__content">
+                        <div class="servicesSlider__num">05</div>
+                        <div class="servicesSlider__title">Обслуживание</div>
+                        <div class="servicesSlider__text">Мы отвечаем за качество нашей продукции и предлагаем 5-летнюю гарантию и постгарантийное обслуживание техники.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination" data-project-slider-pag></div>
+              </div>
+            </section>
+            <section class="tile"><img src="img/tile.png"></section>
+            <section class="support container _dev">
+              <div class="support__inner _dev">
+                <div class="support__title">Хотите узнать о нас больше?</div>
+                <div class="support__text _dev">Свяжитесь с нами для организации персональной встречи</div>
+                <div class="support__btn _dev"><a class="btn" href="contacts.html">Связаться</a><a class="btn _secondary" href="/">Скачать презентацию</a></div>
+              </div>
             </section>
           </div>
         </main>
